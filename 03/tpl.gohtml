@@ -7,7 +7,7 @@
 <body>
     <ul>
         {{range .}}
-        <li>{{uc .}}</li>
+        <li>{{. | uc | ft}}</li>
         {{end}}
 
 
